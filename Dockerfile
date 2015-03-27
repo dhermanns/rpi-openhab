@@ -1,7 +1,7 @@
 # Openhab 1.6.2
 # * configuration is injected
 #
-FROM cmoro-deusto/docker-rpi-java8
+FROM dordoka/rpi-java8
 MAINTAINER dhermanns <docker.hermanns@spamgourmet.com>
 
 RUN apt-get -y update
