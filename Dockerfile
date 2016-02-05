@@ -1,4 +1,4 @@
-# Openhab 1.6.2
+# Openhab 1.8.1
 # * configuration is injected
 #
 FROM dordoka/rpi-java8
@@ -8,7 +8,7 @@ RUN apt-get -y update
 RUN apt-get -y upgrade
 RUN apt-get -y install unzip supervisor wget
 
-ENV OPENHAB_VERSION 1.6.2
+ENV OPENHAB_VERSION 1.8.1
 
 ADD files /root/docker-files/
 
